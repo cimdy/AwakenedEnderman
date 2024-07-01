@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.cimdy.awakenedenderman.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "awakened_enderman.refmap.json",
+  "mixins": [
+    "EnderManMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
